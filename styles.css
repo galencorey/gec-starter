@@ -1,9 +1,12 @@
 body {
   font-family: Helvetica, sans-serif;
+  background-color: #d0dff2;
+  margin: 0;
+  padding: 40px;
 }
 
-figcaption {
-  font-size: 10px;
+a {
+  color: #1929a0;
 }
 
 .highlighted {
@@ -11,4 +14,19 @@ figcaption {
   color: #66ff33;
   padding: 2px;
   font-family: monospace;
+}
+
+.title {
+  text-align: center;
+}
+
+.rounded {
+  border-radius: 50%;
+  width: 200px;
+  margin: 40px auto;
+  display: block;
+}
+
+#list-title {
+  color: #37217a;
 }
